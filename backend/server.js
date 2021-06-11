@@ -24,7 +24,7 @@ connection.once("open", () => {
   console.log("MongoDB database connection established successfully");
 });
 
-app.use("/exercised", exerciseRouter);
+app.use("/exercished", exerciseRouter);
 app.use("/users", userRouter);
 
 app.listen(PORT, () => {
